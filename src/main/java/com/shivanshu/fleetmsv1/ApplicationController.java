@@ -9,8 +9,10 @@ public class ApplicationController {
     @GetMapping("/index")
     public String home(){
         return "index";
-    }@GetMapping("/forms-elements")
-    public String formElements(){
-        return "forms-elements";
+    }
+
+    @GetMapping("/index2")
+    public String _layout(){
+        return "index2";
     }
 }
